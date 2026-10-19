@@ -1,0 +1,13 @@
+public class _6Q {
+    public static void main(String[] args) {
+        // reverse a number
+        int n = 12345;
+        int reverse  = 0;
+        while(n!=0){
+            int digit = n%10;
+            reverse = reverse  * 10 +digit;
+            n = n/ 10;
+        }
+        System.out.println("Reverse = " + reverse);
+    }
+}
